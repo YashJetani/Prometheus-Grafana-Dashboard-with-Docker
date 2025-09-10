@@ -9,7 +9,7 @@ volumes:
 services:
    notes-app:
      build:
-       context: django-notes-app/.
+       context: django-notes-app-dev/.
      container_name: notes-app
      ports:
        - "8000:8000"
