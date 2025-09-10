@@ -8,7 +8,7 @@ pipeline {
         }
         stage("Build and Test"){
             steps{
-                sh "docker build -t notes-app /django-notes-app/."
+                sh "docker build -t notes-app ./django-notes-app/."
             }
         }
         stage("Push to Docker Hub"){
