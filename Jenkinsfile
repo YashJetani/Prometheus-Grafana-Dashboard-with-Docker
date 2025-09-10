@@ -3,12 +3,12 @@ pipeline {
     stages{
         stage("Clone Code"){
             steps{
-                git url: "https://github.com/LondheShubham153/django-notes-app.git", branch: "main"
+                git url: "https://github.com/YashJetani/YashJetani-Prometheus-Grafana-Dashboard-with-Docker.git", branch: "main"
             }
         }
         stage("Build and Test"){
             steps{
-                sh "docker build . -t note-app-test-new"
+                sh "docker build . -t notes-app"
             }
         }
         stage("Push to Docker Hub"){
