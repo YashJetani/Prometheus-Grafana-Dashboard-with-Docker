@@ -23,7 +23,8 @@ The project is fully automated with **Jenkins CI/CD pipeline** and monitored usi
 
 -----
 
-** 📝 How To Execute**
+**📝 How To Execute**
+
 **Step - 1️⃣**
 - Install **Java**
 - Command :
@@ -57,7 +58,7 @@ The project is fully automated with **Jenkins CI/CD pipeline** and monitored usi
 - Create a pipeline and configure it for Git SCM.
 - Then, Run ** Build **.
 
-**Step :5️⃣**
+**Step - 5️⃣**
 - Access all the service on Browser.
 - Notes App : http://<YOUR_IP>:8000
 - Grafana : http://<YOUR_IP>:3000  # If not working try port : 3001
@@ -66,7 +67,7 @@ The project is fully automated with **Jenkins CI/CD pipeline** and monitored usi
 
 -----
 
-** 📊 Images of Grafana Dashboard ** :
+**📊 Images of Grafana Dashboard** :
 
 
 <img width="960" height="416" alt="img4" src="https://github.com/user-attachments/assets/f1801e4d-2254-4ec3-8712-4be4c81e6209" />
