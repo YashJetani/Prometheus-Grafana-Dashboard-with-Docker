@@ -30,10 +30,6 @@ The project is fully automated with **Jenkins CI/CD pipeline** and monitored usi
 -     sudo apt update
 -     sudo apt install fontconfig openjdk-21-jre
 -     java -version
-- You can see O/P like this :
--    openjdk version "21.0.3" 2024-04-16
-     OpenJDK Runtime Environment (build 21.0.3+11-Debian-2)
-     OpenJDK 64-Bit Server VM (build 21.0.3+11-Debian-2, mixed mode, sharing) 
 
 **Step-2**
 - Install **Jenkins**
