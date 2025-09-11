@@ -48,6 +48,32 @@ The project is fully automated with **Jenkins CI/CD pipeline** and monitored usi
 **Step-3**
 - Activate the **Jenkins** service
 - Command :
--      sudo systemctl enable jenkins # for enable jenkins service
--      sudo systemctl start jenkins  # for stare jenkins service
--      sudo systemctl status jenkins # for the check cureent status of Jenkins.
+-      sudo systemctl enable jenkins 
+-      sudo systemctl start jenkins  
+-      sudo systemctl status jenkins
+
+**Step-4**
+- Access the Jenkins service on your Browser.
+-     http://<YOUR_IP>:8080
+- Then, Login using the password and install suggested pluging.
+- Set your DockerHub credentails as a Globle credentails.
+- Create a pipeline and configure it for Git SCM.
+- Then, Run ** Build **.
+
+**Step-5**
+- Access all the service on Browser.
+- Notes App : http://<YOUR_IP>:8000
+- Grafana : http://<YOUR_IP>:3000  # If not working try port : 3001
+- Prometheus: http://<YOUR_IP>:9090
+- cAdvisor: http://<YOUR_IP>:8080  # If not working try port : 8081
+
+-----
+
+** 📊 Images of Grafana Dashboard :
+<img width="960" height="416" alt="img4" src="https://github.com/user-attachments/assets/f1801e4d-2254-4ec3-8712-4be4c81e6209" />
+<img width="944" height="417" alt="img5" src="https://github.com/user-attachments/assets/7f1ac2f2-ce1a-4009-adb6-079549b68ea2" />
+<img width="944" height="410" alt="img6" src="https://github.com/user-attachments/assets/98121523-475c-44b6-a128-9f0119a99f80" />
+
+
+- If you want to create Dashboard like this you can use official website of Grafana-templates.
+- **Link** : https://grafana.com/grafana/dashboards/
