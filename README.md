@@ -26,16 +26,18 @@ The project is fully automated with **Jenkins CI/CD pipeline** and monitored usi
 ** 📝 How To Execute**
 **Step-1**
 - Install **Java**
-- Command : sudo apt update
-            sudo apt install fontconfig openjdk-21-jre
-            java -version
+- Command :
+-              sudo apt update
+               sudo apt install fontconfig openjdk-21-jre
+               java -version
 - You can see O/P like this : openjdk version "21.0.3" 2024-04-16
                               OpenJDK Runtime Environment (build 21.0.3+11-Debian-2)
                               OpenJDK 64-Bit Server VM (build 21.0.3+11-Debian-2, mixed mode, sharing) 
 
 **Step-2**
 - Install **Jenkins**
-- Command : sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
+- Command :
+-              sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
             https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
             echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
             https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
@@ -45,6 +47,7 @@ The project is fully automated with **Jenkins CI/CD pipeline** and monitored usi
 
 **Step-3**
 - Activate the **Jenkins** service
-- Command : sudo systemctl enable jenkins # for enable jenkins service
+- Command :
+-             sudo systemctl enable jenkins # for enable jenkins service
 -           sudo systemctl start jenkins  # for stare jenkins service
 -           sudo systemctl status jenkins # for the check cureent status of Jenkins.
