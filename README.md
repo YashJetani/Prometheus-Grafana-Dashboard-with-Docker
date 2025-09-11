@@ -23,7 +23,7 @@ The project is fully automated with **Jenkins CI/CD pipeline** and monitored usi
 
 -----
 
-**📝 How To Execute**
+**📝 How To Execute 🚶1️⃣➡️5️⃣**
 
 **Step - 1️⃣**
 - Install **Java**
