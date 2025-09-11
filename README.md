@@ -24,14 +24,14 @@ The project is fully automated with **Jenkins CI/CD pipeline** and monitored usi
 -----
 
 ** 📝 How To Execute**
-**Step-1**
+**Step - 1️⃣**
 - Install **Java**
 - Command :
 -     sudo apt update
 -     sudo apt install fontconfig openjdk-21-jre
 -     java -version
 
-**Step-2**
+**Step - 2️⃣**
 - Install **Jenkins**
 - Command :
 -     sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
@@ -42,14 +42,14 @@ The project is fully automated with **Jenkins CI/CD pipeline** and monitored usi
 -     sudo apt-get update
 -     sudo apt-get install jenkins
 
-**Step-3**
+**Step - 3️⃣**
 - Activate the **Jenkins** service
 - Command :
 -      sudo systemctl enable jenkins 
 -      sudo systemctl start jenkins  
 -      sudo systemctl status jenkins
 
-**Step-4**
+**Step - 4️⃣**
 - Access the Jenkins service on your Browser.
 -     http://<YOUR_IP>:8080
 - Then, Login using the password and install suggested pluging.
@@ -57,7 +57,7 @@ The project is fully automated with **Jenkins CI/CD pipeline** and monitored usi
 - Create a pipeline and configure it for Git SCM.
 - Then, Run ** Build **.
 
-**Step-5**
+**Step :5️⃣**
 - Access all the service on Browser.
 - Notes App : http://<YOUR_IP>:8000
 - Grafana : http://<YOUR_IP>:3000  # If not working try port : 3001
