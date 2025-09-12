@@ -54,7 +54,7 @@ The project is fully automated with **Jenkins CI/CD pipeline** and monitored usi
 - Access the Jenkins service on your Browser.
 -     http://<YOUR_IP>:8080
 - Then, Login using the password and install suggested pluging.
-- Set your DockerHub credentails as a Globle credentails.
+- Set your DockerHub credentials as a Globle credentails.
 - Create a pipeline and configure it for Git SCM.
 - Then, Run ** Build **.
 
